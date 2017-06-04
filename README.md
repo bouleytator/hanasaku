@@ -23,12 +23,15 @@ Also the default prefix for music is ```!``` if you want a tutorial on how to ch
 You can donate [here](https://paypal.me/agarcellsthegame) .
 
 
-##Updates
-No Updates yet to be Announced!
+## Updates
+**No Updates yet to be Announced!**
 
-##Features
+## Features
 **Our bot mentions users even if they leave/join !**
 **Supporting Discord.js**
 
-##Version
-**Currently at Version 1.1
+## Versions
+**Currently at Version 1.1**
+
+## Contacts
+***Join our Discord Support Chat*** [**HERE**](https://discord.gg/PszJr6p)
