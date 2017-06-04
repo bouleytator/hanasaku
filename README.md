@@ -42,22 +42,6 @@ Let's say you want a fun command like a reply command! Here's an example.**
   }
 });
 ```
-**You will see that there is a `} });` on the second command and on the first command there's none. It'ss because we need to sepearte them. But if you want to use `} });` and not `} else` just do this.**
-```javascript
-client.on('message', (message) => {
-
-  if (message.content.startsWith(config.prefix + 'hello')) {
-    message.channel.send('Hi!');
-  }
-});
-
-client.on('message', (message) => {
-
-   if (message.content.startsWith(config.prefix + 'howareyou)) {
-    message.channel.send('Good!');
-  }
-});
-```
 **And so you're all set! Thank you :)**
 
 ## Updates
