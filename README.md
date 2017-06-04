@@ -34,15 +34,20 @@ Let's say you want a fun command like a reply command! Here's an example.**
 ```
 **If you want to make 2 commands with it, add } else. Here's an example.**
 ```javascript
+client.on('message', (message) => {
+  if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+
   if (message.content.startsWith(config.prefix + 'hello')) {
     message.channel.send('Hi!');
-} else
-  if (message.content.startsWith(config.prefix + 'howareyou)) {
-    message.channel.send('Good!');
+  } else
+  if (message.content.startsWith(config.prefix + 'sup')) {
+    message.channel.send('Sup!');
   }
 });
 ```
 **And so you're all set! Thank you :)**
+
+**Take note that `client.on('message', (message) => {` must only be at the beggining of the commands. At the top. Like the example there, if you want to add more commands just remove ` } }); ` and change it to ` } else ` and you can add ` } });` to the last part of the command that you added.**
 
 ## Updates
 **No Updates yet to be Announced!**
