@@ -53,8 +53,7 @@ client.on('message', (message) => {
 **No Updates yet to be Announced!**
 
 ## Features
-**Our bot mentions users even if they leave/join !**
-**Supporting Discord.js**
+**Our bot mentions users even if they leave/join !**\n**Supporting Discord.js**
 
 ## Versions
 **Currently at Version 1.1**
