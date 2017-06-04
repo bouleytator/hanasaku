@@ -96,34 +96,34 @@ message.channel.send({embed: {
     url: 'https://discord.gg/PszJr6p',
     description: 'Hanasaku is in development for more commands! :heart:',
     fields: [{
-        name: '!help',
+        name: 'yourprefixhelp',
         value: 'Shows this message'
       },
       {
-        name: '!invite',
+        name: 'yourprefixinvite',
         value: 'Send the [invite](https://discordapp.com/oauth2/authorize?client_id=318739301573591041&scope=bot&permissions=536083519) for Hanasaku.'
       },
       {
-        name: '!ping',
+        name: 'yourprefixping',
         value: 'Pong!'
       },
       {
-        name: '!permshelp',
+        name: 'yourprefixpermshelp',
         value: 'Shows the help message for the commands that includes permissions.'
       },
       {
-        name: '!donate',
+        name: 'yourprefixdonate',
         value: 'Support Hanasaku Bot.'
       },
       {
-        name: '!musichelp',
+        name: 'yourprefixmusichelp',
         value: 'Shows the help message for music.'
       }
     ],
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
-      text: '© Hanasaku Discord Bot'
+      text: 'Â© Hanasaku Discord Bot'
     }
   }
 });
@@ -139,26 +139,26 @@ message.author.sendMessage({embed: {
     url: 'https://discord.gg/PszJr6p',
     description: 'Hanasaku is in development for more commands! :heart:',
     fields: [{
-        name: '!permshelp',
+        name: 'yourprefixpermshelp',
         value: 'Shows this message'
       },
       {
-        name: '!ban',
+        name: 'yourprefixban',
         value: 'Bans the user mentioned! Usage: ?ban @user reason'
       },
       {
-        name: '!kick',
+        name: 'yourprefixkick',
         value: 'Kick the user mentioned! Usage: ?kick @user reason'
       },
       {
-        name: '!embed',
+        name: 'yourprefixembed',
         value: 'Makes the message in embed!'
      }
     ],
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
-      text: '© Hanasaku Discord Bot'
+      text: 'Â© Hanasaku Discord Bot'
     }
   }
 });
@@ -172,7 +172,7 @@ message.author.sendMessage({embed: {
     },
     title: 'Our Discord Support Server',
     url: 'https://discord.gg/PszJr6p',
-    description: 'Hanasaku is in development for more commands! :heart:',
+    description: 'Hanasaku is in development for more commands! :heart: Default Music Prefix: `!` ',
     fields: [{
         name: '!play',
         value: 'Play a video/music. It can take a URL from various services '
@@ -209,7 +209,7 @@ message.author.sendMessage({embed: {
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
-      text: '© Hanasaku Discord Bot'
+      text: 'Â© Hanasaku Discord Bot'
     }
   }
 });
