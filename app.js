@@ -160,11 +160,11 @@ message.channel.send({embed: {
 });
   } else
 if (message.content.startsWith(config.prefix + 'shutdown')) {
-if(message.author.id != "209586491024867329") return;
+if(message.author.id != "YOUR ID") return;
 message.channel.send(`**Finally some rest! Thanks ${message.author.username} for shutting me down. :smile: :wave:**`).then(() => process.exit(42)) 
   } else
 if(message.content.startsWith(config.prefix + "rename")) {
-if(message.author.id != "209586491024867329") return;
+if(message.author.id != "YOUR ID") return;
     var username = message.content.split(" ").slice(1).join("_");
     bot.user.setUsername(username);
     message.channel.sendMessage(`Renamed myself to **${username}** commanded by ${message.author.username}.`).catch(console.error);
