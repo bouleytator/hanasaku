@@ -20,7 +20,7 @@ Now you can clone the bot to your vps!
 After that you're all set.
 You can now run her by typing ```node mybot``` or ```node mybot.js``` . Thank you for installing Hanasaku!
 Also the default prefix for music is ```!``` if you want a tutorial on how to change it please join our Discord Group Chat by click [me!](https://discord.gg/PszJr6p) . And you must be a donator. Minimum donation amount is $2.50 so i can tell you how to improve your bot! Thank you :)
-You can donate [here](https://paypal.me/agarcellsthegame) .
+You can donate [here](https://patreon.com/hanasaku) .
 
 
 ## Make your own Command!
@@ -50,14 +50,17 @@ client.on('message', (message) => {
 **Take note that `client.on('message', (message) => {` must only be at the beggining of the commands. At the top. Like the example there, if you want to add more commands just remove ` } }); ` and change it to ` } else ` and you can add ` } });` to the last part of the command that you added.**
 
 ## Updates
-**No Updates yet to be Announced!**
+**Removed Music Due to stopping in the middle of the song!**
 
 ## Features
 **Our bot mentions users even if they leave/join !**
 **Supporting Discord.js**
 
 ## Versions
-**Currently at Version 1.1**
+**Currently at Version 1.2 Beta**
+
+## Next Version
+**Next Version will be 2.0**
 
 ## Contacts
 ***Join our Discord Support Chat*** [**HERE**](https://discord.gg/PszJr6p)
