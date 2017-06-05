@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const music = require('discord.js-music-v11');
 const client = new Discord.Client();
 const config = require('./config.json');
 
@@ -226,6 +225,5 @@ if(message.author.id != "209586491024867329") return;
     message.delete().catch(console.error);
 }
 });
-music(client);
 client.login(config.token);
 
