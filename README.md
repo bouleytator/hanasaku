@@ -49,18 +49,26 @@ client.on('message', (message) => {
 
 **Take note that `client.on('message', (message) => {` must only be at the beggining of the commands. At the top. Like the example there, if you want to add more commands just remove ` } }); ` and change it to ` } else ` and you can add ` } });` to the last part of the command that you added.**
 
+## Information
+**Take not that when you're going to use `${}` eg: `${bot.ping}` use Backticks ``` ` ```**
+ 
 ## Updates
-**Removed Music Due to stopping in the middle of the song!**
+**Renamed mybot.js to app.js!**
+**Changed `const client = new Discord.Client();` to `const bot = new Discord.Client();`**
+**Removed Mention when users leave!**
 
 ## Features
-**Our bot mentions users even if they leave/join !**
+**Fast Response Bot.**
 **Supporting Discord.js**
 
 ## Versions
-**Currently at Version 1.2 Beta**
+**Finished Version 1.0
+Finished Version 1.1
+Finished Version 1.2**
+__**Currently at Version 2.0**__
 
 ## Next Version
-**Next Version will be 2.0**
+**Next Version will be 2.1**
 
 ## Contacts
 ***Join our Discord Support Chat*** [**HERE**](https://discord.gg/PszJr6p)
