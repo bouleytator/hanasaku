@@ -8,7 +8,7 @@ Hanasaku Public Release Coded in Discord.js ! Basic commands in embed. Music is 
 ```javascript
 {
   "token": "Place_Your_Bot_Token_Here",
-  "prefix": "Place_Your_Bot_Token_Here",
+  "prefix": "Place_Your_Bot_Prefix_Here",
   "ownerID": "Place_Your_ID_Here" 
 }
 ```
