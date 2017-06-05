@@ -1,6 +1,5 @@
 {
-  "token": "Your_Bot_Token",
-  "prefix": "Your_Prefix",
-  "ownerID": "Your_ID" 
+  "token": "Place_Your_Bot_Token_Here",
+  "prefix": "Place_Your_Bot_Token_Here",
+  "ownerID": "Place_Your_ID_Here" 
 }
-
