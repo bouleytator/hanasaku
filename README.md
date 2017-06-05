@@ -56,19 +56,13 @@ client.on('message', (message) => {
 **Take not that when you're going to use `${}` eg: `${bot.ping}` use Backticks ``` ` ```**
  
 ## Updates
-**Renamed mybot.js to app.js!**
-**Changed `const client = new Discord.Client();` to `const bot = new Discord.Client();`**
-**Removed Mention when users leave!**
+**Renamed mybot.js to app.js!**                                                                                           **Changed `const client = new Discord.Client();` to `const bot = new Discord.Client();`**                                       **Removed Mention when users leave!**
 
 ## Features
-**Fast Response Bot.**
-**Supporting Discord.js**
+**Fast Response Bot.**                                                                                               **Supporting Discord.js**
 
 ## Versions
-**Finished Version 1.0
-Finished Version 1.1
-Finished Version 1.2**
-__**Currently at Version 2.0**__
+**Finished Version 1.0                                                                                                           Finished Version 1.1                                                                                                             Finished Version 1.2**                                                                                               __**Currently at Version 2.0**__
 
 ## Next Version
 **Next Version will be 2.1**
