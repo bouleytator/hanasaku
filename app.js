@@ -1,3 +1,4 @@
+// All Rights Reserved  © 2017 - 2018 - No Claiming it's yours!
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const config = require('./config.json');
@@ -173,3 +174,4 @@ if(message.author.id != "YOUR ID") return;
 });
 bot.login(config.token);
 
+// Made by 보지 | Boujee#6164
