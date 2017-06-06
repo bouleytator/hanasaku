@@ -1,6 +1,6 @@
 ## This file contains all the info you need!
 
-### Allowed Operating Systems
+### Allowed Operating 
 
 **Windows 7 or Above 
 Linux - CentOS 7, Ubuntu 16.04**
@@ -11,5 +11,4 @@ Linux - CentOS 7, Ubuntu 16.04**
 
 ### More Information
 
-**Owner: 보지 | Boujee#6164 
-Bot Name ( Original ): Hanasaku**
+**Owner: 보지 | Boujee#6164                  Bot Name ( original ): Hanasaku**
