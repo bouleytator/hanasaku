@@ -7,7 +7,7 @@ Linux - CentOS 7, Ubuntu 16.04**
 
 ### Stuff you need to install
 
-**Discord.js Node 6 or above
+**Discord.js Node 6 or above**
 
 ### More Information
 
