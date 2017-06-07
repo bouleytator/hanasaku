@@ -3,7 +3,7 @@ Hanasaku Public Release Coded in Discord.js ! Basic commands in embed. Music is 
 
 ## Installation
 ### Windows Version
-**Make a folder name it anything you want, i named mine hanasaku. Once you made your folder, open up your Terminal A.K.A CMD and type `cd/path/to/your/discordbot/folder` . Now that you did that, install Python 2.7. by typing on the Terminal A.K.A CMD `npm install --save discord.js`. ( The Bot Folder Location )  Now that you installed both Python And Visual Studio and Discord.js you're ready to go! Type on your CMD ( The Bot Folder Location ) `git clone git@github.com:bouleytator/hanasaku.git` . Once you've done that, you will see a file called " app.js " and " config.json ". You can change some stuff on the app.js like the Help Command, but make sure you give us a shoutout :) . Now on the file " config.json " . You will see there 3 settings, Token , Prefix and OwnerID. Here's how the setup is. WARNING: DON'T CLOSE YOUR CMD!**
+**Make a folder name it anything you want, i named mine hanasaku. Once you made your folder, open up your Terminal A.K.A CMD and type `cd/path/to/your/discordbot/folder` . Now that you did that, You can also use Visual Studio to edit the files but i use Sublime Text. Now let's install Discord.js by typing `npm instal --save discord.js` and you're ready t go! Type on your CMD ( The Bot Folder Location ) `git clone git@github.com:bouleytator/hanasaku.git` . Once you've done that, you will see a file called " app.js " and " config.json ". You can change some stuff on the app.js like the Help Command, but make sure you give us a shoutout :) . Now on the file " config.json " . You will see there 3 settings, Token , Prefix and OwnerID. Here's how the setup is. WARNING: DON'T CLOSE YOUR CMD!**
 
 ```javascript
 {
