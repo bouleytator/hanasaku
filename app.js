@@ -69,7 +69,7 @@ bot.on('message', (message) => {
 	       if (!reason)
 		return message.channel.sendMessage(`Why are you gonna kick ${user.username}`);
 	       message.channel.sendMessage(`**${user.username}** got kicked by **${message.author.username}** for **${reason}**.`)
-member.ban()
+member.kick()
   } else
    if(message.content.startsWith(config.prefix + 'ban')) {
      if(message.author.bot) return;
