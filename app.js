@@ -87,43 +87,7 @@ member.kick()
 member.ban()
 }
 if (message.content.startsWith(config.prefix + 'help')) {
-message.channel.send({embed: {
-    color: 3447003,
-    author: {
-      name: bot.user.username,
-      icon_url: bot.user.avatarURL
-    },
-    title: 'Our Discord Support Server',
-    url: 'https://discord.gg/PszJr6p',
-    description: 'Hanasaku is in development for more commands! :heart:',
-    fields: [{
-        name: `${config.prefix}help`,
-        value: 'Shows this message'
-      },
-      {
-        name: `${config.prefix}invite`,
-        value: 'Send the [invite](https://discordapp.com/oauth2/authorize?bot_id=318739301573591041&scope=bot&permissions=536083519) for Hanasaku.'
-      },
-      {
-        name: `${config.prefix}ping`,
-        value: 'Pong!'
-      },
-      {
-        name: `${config.prefix}permshelp`,
-        value: 'Shows the help message for the commands that includes permissions.'
-      },
-      {
-        name: `${config.prefix}donate`,
-        value: 'Support Hanasaku Bot.'
-      }
-    ],
-    timestamp: new Date(),
-    footer: {
-      icon_url: bot.user.avatarURL,
-      text: '© Hanasaku Discord Bot'
-    }
-  }
-});
+message.channel.send(`**Hello ${message.author} ! I see that you wanted a list of my commands?\nWell, i sent them in DM! Check it.`).then(() =>message.author.send(`Here's a list of the Normal Commands\n**${config.prefix}help** - Shows the help Message\n**${config.prefix}musichelp** - Shows the help message for Music!\n**${config.prefix}permshelp** - Shows the help commands for Moderation!\n**${config.prefix}patreon** - Shows the Patreon page for ${client.user.username}\n**${config.prefix}myid** - Shows your ID in DM!\n**${config.prefix}ping** - Pong!`)
   } else
 if (message.content.startsWith(config.prefix + 'permshelp')) {
 message.channel.send({embed: {
